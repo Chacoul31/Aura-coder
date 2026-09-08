@@ -1,4 +1,4 @@
-const CACHE_NAME = 'aura-coder-v1.2';
+const CACHE_NAME = 'aura-coder-v1';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -8,7 +8,7 @@ const CORE_ASSETS = [
   './data.txt',
   './dataset1.json',
   './dataset2.json',
-  './dataset3.json'
+  './dataset3.json',
 ];
 
 self.addEventListener('install', event => {
